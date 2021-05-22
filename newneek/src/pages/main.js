@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Card from '../components/detail/Card';
 import styled from 'styled-components';
+import { getCardData } from '../lib/api';
 
 const MainWrap = styled.div`
 display: flex;
