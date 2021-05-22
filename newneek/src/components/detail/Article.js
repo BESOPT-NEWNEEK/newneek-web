@@ -43,6 +43,19 @@ const ArticleFooter = styled.div`
     width: 100%;
     border-top: solid 1px;
     background: #E5E5E5;
+`;
+
+const ButtonArticle = styled.div`
+    width: 400px;
+    height: 102px;
+    left: 760px;
+    top: 2242px;          
+    background: #383535;
+    margin-top: 802px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 `;
 const Article = () => {
@@ -68,7 +81,11 @@ const Article = () => {
 보우소나루 대통령은 지난달 기후정상회의에서 “2030년까지 아마존 무단 벌채 끝내고 2050년엔 탄소 중립을 해낼게. 대신 우리나라에 돈 좀 줘!”라고 요구했는데요. 회의 끝나자마자 국내 환경 예산을 팍 줄인 게 알려지면서 
 ‘쟤네 진짜 보호하겠다는 거야?’ 하는 의심이 생기고 있어요. </Content>
             </ArticleTemplate>
-            <ArticleFooter></ArticleFooter>
+            <ArticleFooter>
+                <ButtonArticle>
+                    <button>다른 기사 보러가기</button>
+                </ButtonArticle>
+            </ArticleFooter>
         </ArticleContainer>
     );
 }

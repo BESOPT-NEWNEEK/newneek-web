@@ -30,6 +30,7 @@ const Date = styled.div`
     font-size: 32px;
     font-weight: 500;
     font-style: normal;
+    
 
 `;
 
