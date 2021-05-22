@@ -1,2 +1,2 @@
-export { default as MainPage } from './MainPage';
-export { default as DetailPage } from './DetailPage';
+export { default as TitleTemplate } from './detail/TitleTemplate';
+export { default as Article }  from './detail/Article';
