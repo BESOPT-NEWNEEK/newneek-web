@@ -3,6 +3,7 @@ import GlobalStyle from './styles/GlobalStyle';
 import styled from 'styled-components';
 import DetailPage from './pages/detail';
 import React from 'react';
+import MainPage from './pages/main';
 
 const RootDiv = styled.div`
 height: 100vh;
@@ -13,7 +14,7 @@ function App() {
             <GlobalStyle />
             <RootDiv>
             <BrowserRouter>
-        <DetailPage />
+        <MainPage />
         </BrowserRouter>
         </RootDiv>
         </React.Fragment>
