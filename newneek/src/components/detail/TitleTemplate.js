@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import Responsive from '../common/Responsive';
 
 const TitleTemplateBlock = styled.div`
-  margin-top: 335px;
- // display: flex;
- width: 1920px;
-  height: 320px;
+ width: 100%;
+  height: 100%;
   background: #FB7800;
   border: solid 1px;
+  color: #383535;
 `;
 
 const Category = styled.div`
@@ -36,11 +36,13 @@ const Date = styled.div`
 
 const ActivityTemplate = () => {
   return (
-  <TitleTemplateBlock>  
-      <Category>환경 에너지</Category>
-      <Title>아마존 열대우림, 파괴되는 중</Title>
-      <Date>2021/05/12</Date>
-  </TitleTemplateBlock>
+    <Responsive>
+      <TitleTemplateBlock>
+        <Category>환경 에너지</Category>
+        <Title>아마존 열대우림, 파괴되는 중</Title>
+        <Date>2021/05/12</Date>
+      </TitleTemplateBlock>
+    </Responsive>
   );
 }
 
