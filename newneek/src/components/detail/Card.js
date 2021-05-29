@@ -55,7 +55,7 @@ function Card({ title, date, summary, category, history }) {
 
 
     return ( //Card 쿨릭시 해당 내용 Aricle 기사로 이동
-        <CardWrap onClick={() => title === "아마존 열대우림, 파괴되는 중" && history.push('/article')} >
+        <CardWrap onClick={() => title === "아마존 열대우림, 파괴되는 중" && history.push('/detail')} >
             <CardHeader>
                 <div className='icon' >🌳</div>
                 <span className='category'>{category}</span>
