@@ -1,7 +1,7 @@
 import { BrowserRouter } from 'react-router-dom';
 import GlobalStyle from './styles/GlobalStyle';
 import styled from 'styled-components';
-import DetailPage from './pages/detail';
+//import DetailPage from './pages/detail';
 import React from 'react';
 import MainPage from './pages/main';
 

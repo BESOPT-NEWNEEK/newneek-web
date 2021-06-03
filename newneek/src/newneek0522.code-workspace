@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../sqoop-client"
+		},
+		{
+			"path": "../../../sqoop-this"
+		},
+		{
+			"path": "../.."
+		}
+	]
+}

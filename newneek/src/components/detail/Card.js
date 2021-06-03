@@ -37,7 +37,7 @@ padding:3% 0% 1% 3%;
 
 }
 `;
-const CardMain = Styled.div`
+const CardMain = styled.div`
 display: flex;
 flex-direction: column;
 height: 270px;
