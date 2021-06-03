@@ -13,9 +13,17 @@ const GlobalStyle = createGlobalStyle`
         background-color: rgb(235,235,235);
     };
     button{
-        display: flex;
         cursor: pointer;
         outline: none;
+        width: 400px;
+        height: 102px;
+        left: 760px;
+        background: #383535;
+        font-weight: 700px;
+        font-size: 32px;
+        font-style: normal;
+        color: white;
+        text-align: center;
     }
 `;
 
