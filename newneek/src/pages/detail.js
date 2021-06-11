@@ -1,12 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
-import { TitleTemplate, Article  } from '../components';
+import { TitleTemplate, Article } from '../components';
+import Header from '../components/common/header';
+import Category from '../components/common/Category';
 
 const DetailPage = () => {
-    return(
+    return (
         <>
-        <TitleTemplate />
-        <Article />
+            <Header />
+            <Category />
+            <TitleTemplate />
+            <Article />
         </>
     );
 }

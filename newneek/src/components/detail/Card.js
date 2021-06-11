@@ -37,7 +37,7 @@ padding:3% 0% 1% 3%;
 
 }
 `;
-const CardMain = Styled.div`
+const CardMain = styled.div`
 display: flex;
 flex-direction: column;
 height: 270px;
@@ -55,7 +55,7 @@ function Card({ title, date, summary, category, history }) {
 
 
     return ( //Card 쿨릭시 해당 내용 Aricle 기사로 이동
-        <CardWrap onClick={() => title === "아마존 열대우림, 파괴되는 중" && history.push('/article')} >
+        <CardWrap onClick={() => title === "아마존 열대우림, 파괴되는 중" && history.push('/detail')} >
             <CardHeader>
                 <div className='icon' >🌳</div>
                 <span className='category'>{category}</span>

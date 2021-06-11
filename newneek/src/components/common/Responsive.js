@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-const Responsive = ({children}) => {
-  return (
-    <Container>
-      {children}
-    </Container>
-  );
+const Responsive = ({ children }) => {
+    return (
+        <Container>
+            {children}
+        </Container>
+    );
+
 };
 
 export default Responsive;
@@ -15,8 +16,6 @@ const Container = styled.div`
   max-width: 1200px;
   height: 215px;
   margin: 0 auto;
-
-
   @media screen and (max-width: 1200px){
     max-width: 990px;
   };
