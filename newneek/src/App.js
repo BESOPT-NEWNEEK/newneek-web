@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import MainPage from './pages/main';
 import DetailPage from './pages/detail';
-
 import GlobalStyle from './components/common/GlobalStyles';
+
 
 function App() {
 
@@ -19,6 +19,14 @@ function App() {
             </BrowserRouter>
         </>
     );
+        <MainPage />
+        </BrowserRouter>
+        </RootDiv>
+        </React.Fragment>
+         
+
+    )
+
 }
 
 export default App;

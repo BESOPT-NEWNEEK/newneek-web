@@ -21,6 +21,8 @@ const Category = () => {
             </CategoryInner>
         </CategoryWrapper>
     );
+]
+
 };
 export default Category;
 
@@ -30,6 +32,7 @@ const CategoryWrapper = styled.nav`
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   overflow: scroll;
+
 `
 
 const CategoryInner = styled.div`
@@ -59,5 +62,5 @@ const CategoryBtn = styled.span`
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  border-top: ${(props) => props.category === props.value && "5px solid orange"};
-  `
+  border-top: ${(props)=> props.category === props.value && "5px solid orange"};
+`

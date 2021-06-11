@@ -6,6 +6,7 @@ const Responsive = ({ children }) => {
             {children}
         </Container>
     );
+
 };
 
 export default Responsive;

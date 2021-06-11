@@ -6,6 +6,7 @@ import Header from '../components/common/header';
 import Category from '../components/common/Category';
 import Title from '../components/detail/Title';
 
+
 const MainWrap = styled.div`
 display: flex;
 flex-direction: column;

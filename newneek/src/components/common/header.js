@@ -19,6 +19,7 @@ const Header = () => {
             </HeaderWapper>
         </Responsive>
     );
+
 };
 
 export default Header;
@@ -30,3 +31,8 @@ const HeaderWapper = styled.header`
   justify-content: space-between;
   align-items: center;
 `;
+const HeaderTitle = styled.h1`
+  font-size: 48px;
+  font-weight: 700;
+`;
+
